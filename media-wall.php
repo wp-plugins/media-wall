@@ -59,7 +59,7 @@ if (is_admin()){ // admin actions and filters
 // action function to add a new submenu under Settings
 function media_wall_admin_menu() {
 	// Add a new submenu under Settings
-	add_options_page('Media Wall', '<img style="position:relative;top:4px" src="' . plugins_url( 'grabimo16x16.png', __FILE__ ) . '"/>&nbsp;Media Wall', 'manage_options', 'media_wall', 'media_wall_options_page');
+	add_options_page('Media Wall', '<img style="position:relative;top:4px" src="http://developer.grabimo.com/download/grabimo16x16.png"/>&nbsp;Media Wall', 'manage_options', 'media_wall', 'media_wall_options_page');
 }
 
 // Use Settings API to whitelist options
@@ -69,7 +69,7 @@ function media_wall_settings_api_init() {
 
 // Build array of links for rendering in installed plugins list
 function media_wall_admin_plugin_actions($links) {
-	$settings_link = '<img style="position:relative;top:4px" src="' . plugins_url( 'grabimo16x16.png', __FILE__ ) . '"/>&nbsp;<a href="'. get_admin_url(null, 'options-general.php?page=media_wall') .'">Settings</a>';
+	$settings_link = '<img style="position:relative;top:4px" src="http://developer.grabimo.com/download/grabimo16x16.png"/>&nbsp;<a href="'. get_admin_url(null, 'options-general.php?page=media_wall') .'">Settings</a>';
 	array_unshift($links, $settings_link);
 	
 	return $links;
@@ -78,12 +78,12 @@ function media_wall_admin_plugin_actions($links) {
 // --- add javascrit and CSS file on webpage head ------------
 function media_wall_css_js_files() {	
 	// add Javscript
-	wp_enqueue_script( 'multimedia-feedback-js-file', plugins_url( 'mf.js', __FILE__ ) );	
+	wp_enqueue_script( 'multimedia-feedback-js-file', 'http://developer.grabimo.com/download/mf.js' );	
 	wp_enqueue_script( 'media-wall-iframe-resize-js-file', plugins_url( 'iframeResizer.min.js', __FILE__ ), array(), '1.0.0', true );
 	wp_enqueue_script( 'media-wall-js-file', plugins_url( 'media-wall.js', __FILE__ ), array(), '1.0.0', true );
 	
 	// CSS file
-	wp_enqueue_style( 'multimedia-feedback-css-file', plugins_url( 'mf.css', __FILE__ ) );
+	wp_enqueue_style( 'multimedia-feedback-css-file', 'http://developer.grabimo.com/download/mf.css' );	
 }
 add_action( 'wp_enqueue_scripts', 'media_wall_css_js_files');
 
