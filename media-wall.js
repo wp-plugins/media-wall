@@ -16,6 +16,6 @@
 
 function showGrabimoCollectionMode(bizAlias, font) {
 	var showTitle = 0;
-	font = decodeURIComponent(font) || "";
+	font = (typeof font !== 'undefined') ? decodeURIComponent(font) : '';
 	grab_multimedia_feedback.startFlow(bizAlias, font, showTitle);
 }

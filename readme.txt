@@ -4,7 +4,7 @@ Donate link: http://www.grabimo.com
 Tags: video gallery, video wall, video Player, video Comment, photo gallery, photo Wall, audio player, media player, playlist, bulletin board, social media, comment, testimonial, feedback 
 Requires at least: 3.0
 Tested up to: 3.8
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

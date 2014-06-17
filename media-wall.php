@@ -3,7 +3,7 @@
 Plugin Name: Media Wall
 Plugin URI: http://www.grabimo.com
 Description: Enable yourself and your website visitors to post video, audio, photo, and text on your website. You manage which media to display on your site.
-Version: 1.0.0
+Version: 1.0.1
 Author: Grabimo
 Author URI: http://www.grabimo.com
 License: GPLv2 or later
@@ -98,7 +98,7 @@ function media_wall_short_code() {
 	$html = $html . '&post=' . $media_wall_enable_post . '&font=' . rawurlencode($media_wall_font_family);
 	$html = $html . '" scrolling="no" width="100%" style="border: none;"></iframe>';
 	if ($media_wall_enable_post) {
-		$html = $html . '<div id="grabimo_media_wall_submit" style="position:absolute;top:20px;left:20px;width:276px;height:113px;cursor:pointer" onClick="showGrabimoCollectionMode(\'' . $media_wall_business_alias . '\',\'' . rawurlencode($media_wall_font_family) . '\')"></div>';
+		$html = $html . '<div id="grabimo_media_wall_submit" style="position:absolute;top:20px;left:20px;width:280px;height:113px;cursor:pointer" onClick="showGrabimoCollectionMode(\'' . $media_wall_business_alias . '\',\'' . rawurlencode($media_wall_font_family) . '\')"></div>';
 	}
 	$html =  $html . '</div>';
 	
