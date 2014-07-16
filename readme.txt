@@ -1,6 +1,6 @@
 === Media Wall ===
 Contributors: grabimo
-Donate link: http://www.grabimo.com
+Donate link: https://www.grabimo.com
 Tags: video gallery, video wall, video Player, video Comment, photo gallery, photo Wall, audio player, media player, playlist, bulletin board, social media, comment, testimonial, feedback 
 Requires at least: 3.0
 Tested up to: 3.8
@@ -32,7 +32,7 @@ This plugin provides a web application service. It uses an iFrame to enable your
 == Installation ==
 1. Upload the whole folder to the /wp-content/plugins/ directory, or simply search and install on your admin panel
 2. Activate the plugin using the 'Plugins' menu on your WordPress admin panel
-3. Go **Settings->Media Wall** to add your business alias created at http://www.grabimo.com
+3. Go **Settings->Media Wall** to add your business alias created at https://www.grabimo.com
 4. Insert the shortcode **[media-wall]** into the text of your page or post.
 
 == Frequently Asked Questions ==
@@ -47,7 +47,7 @@ the same webpage. [See Example >](http://demo.grabimo.com/?page_id=78)
 
 == Support ==
 
-Contact us at http://grabimo.com/ContactUs.html
+Contact us at https://www.grabimo.com/ContactUs.html
 Or simply email us at: admin@grabimo.com
 
 == Screenshots ==
