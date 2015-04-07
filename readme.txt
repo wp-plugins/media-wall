@@ -4,7 +4,7 @@ Donate link: https://www.grabimo.com
 Tags: youtube, video gallery, video wall, video Player, video Comment, photo gallery, photo Wall, audio player, media player, playlist, bulletin board, social media, comment, testimonial, feedback 
 Requires at least: 3.0
 Tested up to: 3.8
-Stable tag: 1.2.0
+Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,9 @@ Or simply email us at: admin@grabimo.com
 5. Flash audio recorder on PC web browser
 
 == Changelog ==
+
+= 1.3.0 =
+* Support image popup lightbox
 
 = 1.2.0 =
 * Support full video screen and YouTube
