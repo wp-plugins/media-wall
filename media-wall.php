@@ -3,7 +3,7 @@
 Plugin Name: Media Wall
 Plugin URI: http://www.grabimo.com
 Description: Enable yourself and your website visitors to post video, audio, photo, and text on your website. You manage which media to display on your site.
-Version: 1.3.0
+Version: 1.3.1
 Author: Grabimo
 Author URI: http://www.grabimo.com
 License: GPLv2 or later
@@ -79,10 +79,8 @@ function media_wall_admin_plugin_actions($links) {
 function media_wall_css_js_files() {	
 	// add Javscript
 	wp_enqueue_script( 'multimedia-feedback-js-file', '//www.grabimo.com/download/mf.js' );	
-	//wp_enqueue_script( 'media-wall-iframe-resize-js-file', plugins_url( 'iframeResizer.min.js', __FILE__ ), array(), '1.0.0', true );
 	wp_enqueue_script( 'media-wall-iframe-resize-js-file', '//www.grabimo.com/download/iframeResizer.min.js'  );
 	wp_enqueue_script( 'media-wall-js-file', plugins_url( 'media-wall.js', __FILE__ ), array(), '1.0.0', true );
-	//wp_enqueue_script( 'media-wall-js-file', '//www.grabimo.com/download/media-wall.js' );
 	
 	// CSS file
 	wp_enqueue_style( 'multimedia-feedback-css-file', '//www.grabimo.com/download/mf.css' );	

@@ -3,8 +3,8 @@ Contributors: grabimo
 Donate link: https://www.grabimo.com
 Tags: youtube, video gallery, video wall, video Player, video Comment, photo gallery, photo Wall, audio player, media player, playlist, bulletin board, social media, comment, testimonial, feedback 
 Requires at least: 3.0
-Tested up to: 3.8
-Stable tag: 1.3.0
+Tested up to: 4.1.1
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,15 +17,15 @@ Enable yourself and your website visitors to post video, audio, photo, and text 
 This plugin provides a web application service. It uses an iFrame to enable yourself and your website visitors to post and display multimedia on your website. It is an out-of-box solution, making it easy for you to build a content rich web site. You control which media to display on your media wall.    
 
 = Main Features =
-* Easy YouTube video display 
-* Customizable Video, Audio, Photo, and Text bulletin board with flexible location, font, etc. 
+* Easy YouTube video embedding 
+* Customizable Video, Audio, Photo, and Text bulletin board with Cascading grid layout, font, etc. 
 * Mobile device friendly, tested on iOS and Andriod phone and tablet
-* Social media publication  
 * Support various Video formats: FLV, MPEG4, M4V, 3GP, 3GPP, MOV, WMV  
 * Support various Audio formats: MP3, M4A, AIF, AIFF, 3GA, 3GP, 3GPP, AMR, AAC 
 * No mobile app installation required for capturing multimedia in real-time
 * HTML5 doctype, mobile and mobile ready
 * Visual presentation on your web site
+* Visual presentation on your Facebook page
 * Instant email notification of customer media submission
 
 = You need to create a Free account to manage multimedia submitted by yourself or from your visitors. = 
