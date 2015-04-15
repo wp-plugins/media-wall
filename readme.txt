@@ -20,6 +20,7 @@ This plugin provides a web application service. It uses an iFrame to enable your
 * Easy YouTube video embedding 
 * Customizable Video, Audio, Photo, and Text bulletin board with Cascading grid layout, font, etc. 
 * Mobile device friendly, tested on iOS and Andriod phone and tablet
+* Support various Photo formats: JPG, PNG, GIF, BMP
 * Support various Video formats: FLV, MPEG4, M4V, 3GP, 3GPP, MOV, WMV  
 * Support various Audio formats: MP3, M4A, AIF, AIFF, 3GA, 3GP, 3GPP, AMR, AAC 
 * No mobile app installation required for capturing multimedia in real-time
@@ -58,6 +59,7 @@ Or simply email us at: admin@grabimo.com
 3. Mobile multimedia upload
 4. Flash video recorder on PC web browser
 5. Flash audio recorder on PC web browser
+6. Embed YouTube link on your Media Wall
 
 == Changelog ==
 
