@@ -90,7 +90,7 @@ add_action( 'wp_enqueue_scripts', 'media_wall_css_js_files');
 // --- create the short code -------------------------------------------
 function media_wall_short_code() {
 	$media_wall_plugin_option_array	= get_option( 'media_wall_plugin_options' );
-	$media_wall_business_alias 		= $media_wall_plugin_option_array[ 'business_alias' ];
+	$media_wall_business_alias 		= sanitize_text_field($media_wall_plugin_option_array[ 'business_alias' ]);
 	$media_wall_font_family			= $media_wall_plugin_option_array[ 'font_family' ];
 	$media_wall_enable_post			= $media_wall_plugin_option_array[ 'enable_post' ];	
 	$html = '<div style="width:100%;position:relative">';
