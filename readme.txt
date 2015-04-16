@@ -1,7 +1,7 @@
 === Media Wall ===
 Contributors: grabimo
 Donate link: https://www.grabimo.com
-Tags: youtube, video gallery, video wall, video Player, video Comment, photo gallery, photo Wall, audio player, media player, playlist, bulletin board, social media, comment, testimonial, feedback 
+Tags: Video gallery, video wall, photo gallery, photo Wall, audio player, media player, comment, testimonial, feedback
 Requires at least: 3.0
 Tested up to: 4.1.1
 Stable tag: 1.3.1
